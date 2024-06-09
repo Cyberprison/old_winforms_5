@@ -40,11 +40,6 @@ namespace old_winforms_5
             generalTask2.Show();
         }
 
-        private void общееЗадание3ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            GeneralTask3 generalTask3 = new GeneralTask3();
-            generalTask3.Show();
-        }
         private void индивидуальноеЗадание1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IndividualTask1 individualTask1 = new IndividualTask1();

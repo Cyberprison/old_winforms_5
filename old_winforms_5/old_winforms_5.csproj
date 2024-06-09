@@ -70,12 +70,6 @@
     <Compile Include="GeneralTask2.Designer.cs">
       <DependentUpon>GeneralTask2.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneralTask3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GeneralTask3.Designer.cs">
-      <DependentUpon>GeneralTask3.cs</DependentUpon>
-    </Compile>
     <Compile Include="IndividualTask1.cs">
       <SubType>Form</SubType>
     </Compile>

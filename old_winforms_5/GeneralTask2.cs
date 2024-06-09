@@ -19,6 +19,14 @@ namespace old_winforms_5
 
         int[] mas;
 
+        private void ShowMas(int [] mas, TextBox textBox)
+        {
+            foreach (var item in mas)
+            {
+                textBox.Text += item + " ";
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Random random = new Random();
@@ -42,19 +50,13 @@ namespace old_winforms_5
 
             textBox3.Clear();
 
-            foreach (var item in mas)
-            {
-                textBox3.Text += item + " ";
-            }
+            ShowMas(mas, textBox3);
 
             Array.Reverse(mas);
 
             textBox4.Clear();
-
-            foreach (var item in mas)
-            {
-                textBox4.Text += item + " ";
-            }
+            
+            ShowMas(mas, textBox4);
         }
 
         private void button3_Click(object sender, EventArgs e)
