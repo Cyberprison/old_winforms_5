@@ -99,6 +99,15 @@
     <EmbeddedResource Include="GeneralTask2.resx">
       <DependentUpon>GeneralTask2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask1.resx">
+      <DependentUpon>IndividualTask1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask2.resx">
+      <DependentUpon>IndividualTask2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask3.resx">
+      <DependentUpon>IndividualTask3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
